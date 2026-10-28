@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# virtual environments
+venv/
+.venv/
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local data (public PDFs are downloaded by the user, see README)
+documents/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
